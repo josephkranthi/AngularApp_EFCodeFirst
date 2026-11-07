@@ -1,0 +1,33 @@
+@AngularApp_EFCodeFirst.Server_HostAddress = http://localhost:5051
+
+GET {{AngularApp_EFCodeFirst.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+### Get all
+GET {{AngularApp_EFCodeFirst.Server_HostAddress}}/api/Employee
+
+### Get by ID
+GET {{AngularApp_EFCodeFirst.Server_HostAddress}}/api/Employee/1
+
+### Create
+POST {{AngularApp_EFCodeFirst.Server_HostAddress}}/api/Employee
+Content-Type: application/json
+
+{
+  "name": "Joseph",
+  "salary": 55000
+}
+
+### Update
+PUT {{AngularApp_EFCodeFirst.Server_HostAddress}}/api/Employee/1
+Content-Type: application/json
+
+{
+  "name": "Joseph Kranthi",
+  "salary": 60000
+}
+
+### Delete
+DELETE {{AngularApp_EFCodeFirst.Server_HostAddress}}/api/Employee/1

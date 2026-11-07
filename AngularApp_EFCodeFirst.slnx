@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="angularapp_efcodefirst.client/angularapp_efcodefirst.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="AngularApp_EFCodeFirst.Server/AngularApp_EFCodeFirst.Server.csproj" />
+</Solution>
